@@ -1,0 +1,37 @@
+library(datasets)
+head(iris)
+plot(iris)
+ddetach("package:datasets", unload = TRUE)
+detach("package:datasets", unload = TRUE)
+dev.off()
+?mean
+5 + 5
+?Chickweight
+?ChickWeight
+a <- 6
+b <- 5
+a + b
+sum(a,b)
+ages <-c(5,6)
+ages
+sum(ages)
+friends <- data.frame(names,ages)
+names <- c(james,betty)
+names <- c('james','betty')
+friends <- data.frame(names,ages)
+friends
+view(friends)
+View(friends)
+Sys.getenv("DISPLAY")
+View(friends)
+str(friends)
+friends$ages
+friends[1,]
+friends[,1]
+data()
+View(Airpassengers)
+View(AirPassengers)
+install.packages('tidyverse')
+cleae
+clear
+quit()

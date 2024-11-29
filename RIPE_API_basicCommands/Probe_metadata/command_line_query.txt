@@ -1,0 +1,1 @@
+﻿ripe-atlas probe-search --country es --limit 1000 --field id --field address_v4 --field asn_v4 --field prefix_v4 --field address_v6 --field asn_v6 --field prefix_v6 --field country --field status --field is_public --field coordinates --field description > probeListES.csv
